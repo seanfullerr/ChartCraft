@@ -17,19 +17,36 @@ It reduces the amount of code required and removes the need for direct XML inter
 
 ## 🖼️ Example Charts
 
-### Bar Chart
+### 📊 Bar Chart
+
+#### Code Snippet
+```java
+BarChart bc = new BarChart();	
+bc.setTitle("Treats - Stock Levels");	
+bc.setCategories(treatTypes);	
+bc.setData(totalSales);	
+bc.setSpan(span[0], span[1]);	
+bc.setPosition(pos[0], pos[1]);		
+bc.setRgb(colour);	
+bc.setLegendPosition(LegendPosition.BOTTOM);	
+bc.setSeriesTitles(treatTypes);	
+bc.setDisplayDataLabels(true);
+bc.setxAxisRotation(-45);
+```
+
+#### Result
 ![Bar Chart](images/bar.png)
 
 
-### Line Chart
-![Line Chart](images/line_chart.png)
+### 📊 Line Chart
+![Line Chart](images/line.png)
 
 
-### Pie Chart
-![Line Chart](images/pie_chart.png)
+### 📊 Pie Chart
+![Line Chart](images/pie.png)
 
 
-### Scatter Chart
+### 📊 Scatter Chart
 ![Line Chart](images/scatter_chart.png)
 
 
