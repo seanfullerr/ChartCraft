@@ -17,6 +17,17 @@ It reduces the amount of code required and removes the need for direct XML inter
 
 ## 🖼️ Example Charts
 
+
+
+
+### 📊 Radar Chart
+#### Code Snippet
+```java
+TO BE ADDED
+```
+#### Result
+![Radar Chart](images/radar.png)
+
 ### 📊 Bar Chart
 
 #### Code Snippet
@@ -35,19 +46,36 @@ bc.setxAxisRotation(-45);
 ```
 
 #### Result
-![Bar Chart](images/bar.png)
-
-
-### 📊 Line Chart
-![Line Chart](images/line.png)
-
+![Bar Chart](images/bar_chart_new.png)
 
 ### 📊 Pie Chart
-![Line Chart](images/pie.png)
 
+#### Code Snippet
+```java
+TO BE ADDED
+```
+#### Result
+![Pie Chart](images/pie_chart.png)
+
+### 📊 Line Chart
+
+#### Code Snippet
+```java
+TO BE ADDED
+```
+#### Result
+![Line Chart](images/line_chart.png)
 
 ### 📊 Scatter Chart
-![Line Chart](images/scatter_chart.png)
+
+#### Code Snippet
+```java
+TO BE ADDED
+```
+#### Result
+![Scatter Chart](images/scatter.png)
+
+
 
 
 ---
